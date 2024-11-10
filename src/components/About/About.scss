@@ -3,13 +3,13 @@
   text-align: center;
   font-family: poppins;
   font-size: 3rem;
-  margin-top: 0;
+  margin: 0;
 
   &::before {
     content: '<h1>';
     font-family: 'La Belle Aurore';
     font-size: 18px;
-    margin-right: 1rem;
+    margin-right: 2rem;
     opacity: 0.6;
   }
   &::after {
@@ -17,22 +17,22 @@
     font-family: 'La Belle Aurore';
     font-size: 18px;
     opacity: 0.6;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 }
 
 .delhi .vertical-timeline-element-title {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .delhi .vertical-timeline-element-subtitle {
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 250;
 }
 
 .freelance .vertical-timeline-element-title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 400;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .wipro .vertical-timeline-element-title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 400;
 }
 
@@ -59,6 +59,29 @@
 .college .vertical-timeline-element-subtitle {
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+.scrollable-timeline {
+  max-height: 80vh; /* Adjust the height as per your preference */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  padding-right: 10px; /* Prevent scrollbar from overlapping content */
+}
+
+.scrollable-timeline::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-timeline::-webkit-scrollbar-thumb {
+  background-color: #ffd700; /* Style the scrollbar */
+  border-radius: 4px;
+}
+
+.scrollable-timeline::-webkit-scrollbar-track {
+  background-color: #115173;
+}
+
+.vertical-timeline.vertical-timeline--two-columns {
+  left: 20px !important;
 }
 
 @media screen and (max-width: 1200px) {

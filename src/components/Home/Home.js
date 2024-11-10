@@ -23,20 +23,44 @@ const Home = () => {
     'd',
     ' ',
     'v',
+    'e',
+    'n',
+    'k',
+    'a',
+    't',
+    'a',
+    'r',
+    'a',
+    'j',
+    'u',
+    'l',
+    'u',
   ]
 
   const jobArray = [
-    'W',
-    'e',
-    'b',
-    ' ',
-    'D',
-    'e',
-    'v',
-    'e',
-    'l',
+    'A',
+    's',
+    's',
     'o',
-    'p',
+    'c',
+    'i',
+    'a',
+    't',
+    'e',
+    ' ',
+    'P',
+    'r',
+    'o',
+    'j',
+    'e',
+    'c',
+    't',
+    '',
+    'M',
+    'a',
+    'n',
+    'a',
+    'g',
     'e',
     'r',
   ]
@@ -78,16 +102,25 @@ const Home = () => {
               lettersClassName={letterClass}
               lettersArray={jobArray}
               lettersIndex={22}
+              fontSize={30}
             />
           </div>
         </h1>
         <div className="otherroles">
-          <h2> Front End Developer / YouTuber / Public Speaker </h2>
+          <h2> Full Stack Developer / Public Speaker </h2>
         </div>
 
-        <Link to="/contact" className="flat-button">
-          CONTACT ME
-        </Link>
+        <div style={{ display: 'flex', gap: '15px' }}>
+          <Link to="/about" className="flat-button">
+            MY JOURNEY
+          </Link>
+          <Link to="/portfolio" className="flat-button">
+            PORTFOLIO
+          </Link>
+          <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
+        </div>
       </div>
     </div>
   )

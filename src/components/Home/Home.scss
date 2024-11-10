@@ -6,6 +6,7 @@
     transform: translateY(-50%);
     width: 70%;
     max-height: 90%;
+    // background-color: red;
   }
   h1 {
     color: #ffd700;
@@ -19,9 +20,8 @@
       content: '<h1>';
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      font-size: 20px;
+      font-size: 30px;
       position: absolute;
-      left: 5%;
       opacity: 0.6;
       margin-top: -5%;
       animation: fadeIn 1s 1.7s backwards;
@@ -36,7 +36,7 @@
       position: absolute;
       opacity: 0.6;
       margin-top: -5%;
-      margin-left: 400px;
+      margin-left: 70%;
       animation: fadeIn 1s 1.7s backwards;
       letter-spacing: 0;
     }
@@ -46,7 +46,7 @@
       margin-left: 20px;
       margin-right: 10px;
       opacity: 0;
-      height: 7rem;
+      height: 6rem;
       animation: rotateIn 1s linear both;
       animation-delay: 1.5s;
     }
